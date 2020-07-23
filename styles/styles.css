@@ -55,14 +55,13 @@ li{
     color:#060A24;
     font-family: 'IBM Plex Mono', monospace;
 }
-li:hover{
+a:hover{
     color: #00F3BB;
     text-decoration: line-through;
 }
-li:active{
+a:active{
     color: rgba(6,10,36,0.56);
     text-decoration: line-through;
-
 }
 .bienvenido{
     height: 40vh;
@@ -417,13 +416,14 @@ a i{
 }
 a{
     text-decoration: none;
-    color: transparent;
+    color: #060A24;
 }
 iframe {
-    background: transparent;
-    border: 0;
+    border: none;
+    background-color: transparent;
     overflow: hidden;
 }
+
 @media screen and (max-width: 600px){
     header{
         height: 15vh;
