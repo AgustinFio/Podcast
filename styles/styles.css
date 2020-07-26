@@ -143,6 +143,8 @@ a:active{
     grid-template-rows: 1fr 1fr;
     top: 95px;
     left: 25px;
+    border: 0;
+    background-color: transparent;
 }
 .spotify{
     width: 85%;
@@ -419,7 +421,7 @@ a{
     color: #060A24;
 }
 iframe {
-    border: none;
+    border: 0;
     background-color: transparent;
     overflow: hidden;
 }
